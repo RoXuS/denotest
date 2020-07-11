@@ -5,12 +5,12 @@
 install deno extension then use this workspace settings:
 ```json
 {
-	"folders": [
-		{
+  "folders": [
+    {
       "path": "denotest"
-		}
-	],
-	"settings": {
-		"deno.importmap": "./dependencies.json"
-	}
+    }
+  ],
+  "settings": {
+    "deno.importmap": "./dependencies.json"
+  }
 }
